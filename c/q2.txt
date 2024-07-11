@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() {
+    
+    int sal;
+    float HRA,DA,SA,grossal;
+    
+    printf("\nEnter Salary:-");
+    scanf("%d",&sal);
+    
+    printf("\nEnter HRA:-");
+    scanf("%f",&HRA);
+    
+    printf("\nEnter DA:-");
+    scanf("%f",&DA);
+    
+    printf("\nEnter SA:-");
+    scanf("%f",&SA);
+    
+    HRA=sal*HRA/100;
+    DA=sal*DA/100;
+    SA=sal*SA/100;
+    
+    grossal=sal+HRA+DA+SA;
+    
+    printf("\n Salary:- %d",sal);
+    printf("\n HRA:- %.2f",HRA);
+    printf("\n DA:- %.2f",DA);
+    printf("\n SA:- %.2f",SA);
+    printf("\n Gross Salary:- %.2f",grossal);
+
+    return 0;
+}

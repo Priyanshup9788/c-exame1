@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    
+    float f;
+    int c;
+    
+    printf("\nCalsius to Fahremheit converter");
+    
+    printf("\nEnter Celsius:- ");
+    scanf("%d",&c);
+    
+    f=((9.0/5.0)*c)+32;
+    
+    printf("Calsius:- %d",c);
+    printf("\n Fahrenheit:- %.2f",f);
+
+    return 0;
+}

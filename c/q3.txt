@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+   float fa,sa,ta;
+   
+   printf("Enter First Angle Value:- ");
+   scanf("%f",&fa);
+   
+   printf("Enter Second Angle Value:- ");
+   scanf("%f",&sa);
+   
+   ta=180-fa-sa;
+   
+   printf("First Angle:- %.2f",fa);
+   printf("Second Angle:- %.2f",sa);
+   printf("Third Angle:- %.2f",ta);
+   
+}
